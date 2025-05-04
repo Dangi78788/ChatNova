@@ -1,6 +1,28 @@
-# .gitignore
-node_modules/
-.env
-dist/
-build/
+# --- Frontend ignore ---
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/logs/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# --- Backend ignore ---
+backend/node_modules/
+backend/.env
+backend/logs/
+backend/*.log
+
+# --- Common IDE/editor files ---
 .DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
