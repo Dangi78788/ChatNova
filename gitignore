@@ -10,6 +10,7 @@ frontend/yarn-debug.log*
 frontend/yarn-error.log*
 frontend/pnpm-debug.log*
 frontend/lerna-debug.log*
+frontend/.env
 
 # --- Backend ignore ---
 backend/node_modules/
